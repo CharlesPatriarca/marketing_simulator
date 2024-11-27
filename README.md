@@ -1,95 +1,84 @@
-MARKETING SIMULATOR
+Execução do MVP - Marketing Simulator
 
-
-Descrição Geral do Sistema
-O Marketing Simulator é uma plataforma inovadora projetada para ajudar profissionais de marketing a testar, simular e otimizar suas campanhas antes de executá-las no mundo real. Usando dados em tempo real e análises detalhadas, o sistema oferece uma maneira de simular diferentes estratégias de marketing digital, permitindo que os usuários prevejam os impactos e a eficácia de suas campanhas, sem os riscos financeiros ou reputacionais associados a erros em campanhas reais.
-
+Descrição
+O Marketing Simulator é uma plataforma que permite aos profissionais de marketing testar, simular e otimizar suas campanhas de marketing digital, prevendo impactos sem riscos financeiros ou de reputação.
 
 Problemática
-De acordo com um estudo realizado pela CB Insights em janeiro de 2024, estratégias de marketing ineficazes são o 8º maior motivo para falências nos dias atuais. Muitas empresas enfrentam dificuldades em prever o impacto e a eficácia de suas campanhas de marketing antes de lançá-las, o que pode resultar em investimentos significativos em estratégias que não produzem os resultados esperados. Além disso, muitas empresas não possuem ferramentas acessíveis e intuitivas para testar diferentes abordagens de marketing sem arriscar sua reputação ou recursos no mercado. O Marketing Simulator surge como uma solução para esse desafio, permitindo que os usuários testem suas campanhas em um ambiente controlado, otimizando suas estratégias antes de fazer investimentos reais.
-
+Segundo um estudo da CB Insights (2024), estratégias ineficazes de marketing são o 8º maior motivo de falência. Muitas empresas não conseguem avaliar a eficácia de suas campanhas antes de lançá-las, o que pode resultar em grandes perdas. O Marketing Simulator resolve esse problema ao permitir testes antes do investimento real.
 
 Solução
-O Marketing Simulator oferece uma plataforma robusta onde os usuários podem criar, simular e analisar campanhas de marketing digital de forma segura e eficiente. O sistema permite que os profissionais testem diferentes variáveis, como orçamento, público-alvo, canais de distribuição e muito mais, para entender como suas decisões impactam os resultados. O objetivo é reduzir os riscos financeiros e melhorar o desempenho das campanhas reais.
-Com o Marketing Simulator, os usuários podem:
-Testar Estratégias de Marketing: Simule diferentes abordagens e veja como elas afetam os resultados.
-Analisar Dados de Desempenho: Obtenha insights detalhados sobre o que funciona e o que não funciona em suas campanhas.
-Ajustar Estratégias em Tempo Real: Realize modificações e observe os resultados instantaneamente.
-
-
-Objetivo
-A plataforma tem como objetivo permitir que profissionais de marketing, empresas e estudantes:
-Testem suas campanhas antes de lançá-las no mercado real.
-Otimizem suas estratégias com base em dados concretos e previsões de impacto.
-Evitem os riscos de falhas financeiras e reputacionais ao simular campanhas em um ambiente controlado.
-
+A plataforma oferece uma ferramenta para simular campanhas de marketing, ajustando variáveis como orçamento, público-alvo e canais de distribuição, com foco em otimizar os resultados.
 
 Funcionalidades Principais
-Análises de Desempenho: Visualize resultados detalhados, como ROI, engajamento e alcance, para cada campanha simulada.
-Gestão de Campanhas: Organize suas campanhas de marketing, defina variáveis como orçamento e público-alvo, e acompanhe o desempenho.
-Simulação em Tempo Real: Teste diferentes estratégias em tempo real para ver como elas impactam os resultados.
-Relatórios Detalhados: Obtenha relatórios completos sobre a eficácia de suas campanhas e identifique áreas para melhorias.
-Configurações Personalizáveis: Ajuste configurações como tema, notificações, e preferências de visualização.
-
+Análises de Desempenho: Visualização de métricas como ROI e engajamento.
+Gestão de Campanhas: Organize e monitore campanhas.
+Simulação em Tempo Real: Teste e ajuste estratégias instantaneamente.
+Relatórios Detalhados: Obtenha insights sobre a eficácia das campanhas.
+Objetivo
+Permitir que profissionais e empresas testem e otimizem campanhas antes de lançá-las no mercado real, evitando falhas financeiras.
 
 Tecnologias Utilizadas
-Dart: Linguagem de programação utilizada para a implementação do sistema.
-Flutter: Framework utilizado para criar a interface de usuário multiplataforma, permitindo que o aplicativo seja acessado em diversos dispositivos.
-Como Instalar e Executar
+Dart: Linguagem de programação.
+Flutter: Framework multiplataforma.
 
+Pré-requisitos
+Antes de iniciar a implantação, verifique os seguintes pré-requisitos:
 
-Pré-requisitos:
-Certifique-se de que o Flutter está instalado no seu computador.
-Utilize um editor de código como o Visual Studio Code ou Android Studio.
-Passos de Instalação:
-Clone o repositório do projeto:
+Instalação do Flutter:
+
+Certifique-se de que o Flutter está instalado em sua máquina. Para isso, siga o guia oficial de instalação aqui.
+Editor de Código:
+
+Use um editor de código compatível, como Visual Studio Code ou Android Studio.
+Dispositivo ou Emulador:
+
+Você precisará de um dispositivo físico ou emulador Android/iOS para rodar o aplicativo.
+Passos para Implantação
+1. Clone o Repositório
+Primeiro, é necessário clonar o repositório do Marketing Simulator para o seu ambiente local:
+
 bash
 Copiar código
 git clone https://github.com/ezaucastilho27/marketing-simulator.git
-
-
-Acesse o diretório do projeto:
-bash
-Copiar código
 cd marketing-simulator
+2. Instale as Dependências
+Após clonar o repositório, instale as dependências necessárias utilizando o comando abaixo:
 
-
-Instale as dependências:
 bash
 Copiar código
 flutter pub get
+Isso irá baixar todas as bibliotecas e pacotes que o projeto necessita para funcionar corretamente.
 
+3. Configure o Ambiente de Desenvolvimento
+Caso ainda não tenha configurado o ambiente para dispositivos móveis, siga os seguintes passos:
 
-Executando o Projeto:
-Conecte um dispositivo físico ou inicie um emulador.
-Execute o aplicativo com o comando:
+Android: Instale o Android Studio e crie um emulador, ou conecte um dispositivo físico Android via USB com o modo de desenvolvedor ativado.
+iOS: Para rodar no iOS, é necessário ter um MacOS com Xcode instalado.
+4. Execute o Projeto
+Para rodar o projeto no seu dispositivo ou emulador, use o comando:
+
 bash
 Copiar código
 flutter run
+Isso compilará o código e executará o aplicativo no dispositivo/emulador conectado.
 
+5. Verifique a Execução
+Acesse o aplicativo em seu dispositivo ou emulador e verifique se ele está funcionando corretamente. A interface principal permitirá que você crie e simule campanhas de marketing.
 
 Estrutura do Projeto
-lib/: Contém todo o código fonte do aplicativo.
-assets/: Recursos como imagens e ícones para a interface de usuário.
-test/: Testes automatizados para garantir a qualidade do código.
-
-
+lib/: Contém o código fonte do aplicativo.
+assets/: Contém recursos de mídia, como imagens e ícones.
+test/: Contém testes automatizados para garantir a qualidade do código.
 Modelo de Monetização
-O Marketing Simulator oferece um modelo de monetização com um plano único de assinatura, que permite aos usuários acessar benefícios exclusivos, como:
-Visibilidade destacada para campanhas de marketing (para usuários prestadores).
-Cupons de desconto para clientes que contratem serviços futuros.
-Além disso, o sistema permite que o usuário complete até 3 campanhas sem custos adicionais. Após a 4ª campanha, será cobrada uma porcentagem sobre os ganhos obtidos com as simulações.
+A solução possui um modelo de monetização baseado em um plano de assinatura:
 
+Visibilidade destacada para prestadores de serviços.
+Cupons de desconto para clientes.
+A plataforma oferece 3 campanhas gratuitas. Após a 4ª, será cobrada uma percentagem sobre os ganhos.
 
-Próximas Melhorias
-Expansão das funcionalidades de relatórios com mais métricas personalizadas.
-Integração com APIs de plataformas de redes sociais para obtenção de dados em tempo real.
-Opção para exportação de relatórios e análises de campanhas simuladas.
+Próximas Melhorias e Funcionalidades
+Expansão de Relatórios: Implementação de mais métricas personalizadas.
+Integração com APIs de Redes Sociais: Para análise de dados em tempo real.
+Exportação de Relatórios: Permitindo a exportação de resultados das campanhas simuladas.
 
-
-Colaboradores
-Maria Nascimento
-Charles Patriarca
-Ezau Castilho
-Ellen Priscila
-
+Colaboradores: Charles Patriarca, Maria Nascimento, Ellen Priscila, Ezaú Castilho
