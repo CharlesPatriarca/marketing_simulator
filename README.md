@@ -87,9 +87,9 @@ Integração com APIs de plataformas de redes sociais para obtenção de dados e
 Opção para exportação de relatórios e análises de campanhas simuladas.
 
 
-Colaboradores
-Maria Nascimento
-Charles Patriarca
-Ezau Castilho
-Ellen Priscila
+Colaboradores - 
+Maria Nascimento,
+Charles Patriarca,
+Ezau Castilho,
+Ellen Priscila.
 
