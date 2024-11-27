@@ -45,7 +45,7 @@ Passos de Instalação:
 Clone o repositório do projeto:
 bash
 Copiar código
-git clone https://github.com/seu-repositorio/marketing-simulator.git
+git clone https://github.com/ezaucastilho27/marketing-simulator.git
 
 
 Acesse o diretório do projeto:
